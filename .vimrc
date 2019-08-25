@@ -11,6 +11,7 @@ nmap <leader>nt :NERDTree<cr>
 "Plugin list
 call plug#begin('~/.vim/plugged')
 
+Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
 Plug 'patstockwell/vim-monokai-tasty'
 Plug 'pangloss/vim-javascript'
@@ -27,7 +28,7 @@ Plug 'prettier/vim-prettier', {
 
 call plug#end()
 
-let g:vim_monokai_tasty_italic = 1
+let g:vim_monokai_tasty_italic = 0
 colorscheme vim-monokai-tasty
 
 "Optional themes for airline/lightline
